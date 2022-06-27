@@ -1,0 +1,61 @@
+
+    .header-button {
+      background-color: rgba(0, 0, 255, 0.537);
+      color: white;
+      border: none;
+      height: 50px;
+      width: 110px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 700;
+      font-size: larger;
+      margin-top: 9px;
+      transition: opacity 0.3s;
+    }
+
+    .header-button:hover{
+      background-color: black;
+      color: aliceblue;
+      opacity: 0.8;
+    }
+
+    .header-button:active{
+      opacity: 0.5;
+    }
+
+    .nav-bar {
+      background-color: black;
+      background-position: 100px;
+      border-radius: 30px;
+      text-align: center;
+      height: 70px;
+      margin-top: 20px;
+      margin-left: 20%;
+      margin-right: 20%;
+      opacity: 0.7;
+    }
+
+    body {
+      background-image: url('https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    #famous-quote {
+      font-size: 60px;
+      font-family:'smooch', cursive;
+      color: rgb(200, 197, 211);
+      margin-top: 20%;
+      float:right;
+      margin-right: 10%;
+    }
+
+    #famous-person {
+      height:300px; width:250px;
+      margin-top: 200px;
+      margin-left: 10%;
+    }
