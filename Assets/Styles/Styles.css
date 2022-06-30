@@ -1,85 +1,109 @@
-    html {
-      scroll-behavior: smooth;
-    }
-   
-   
-   .header-button {
-      background-color: rgba(0, 0, 255, 0.537);
-      color: white;
-      border: none;
-      height: 50px;
-      width: 110px;
-      border-radius: 10px;
-      cursor: pointer;
-      margin-right: 8px;
-      margin-bottom: 8px;
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: 700;
-      font-size: larger;
-      margin-top: 9px;
-      transition: opacity 0.3s;
-    }
+html {
+  scroll-behavior: smooth;
+}
 
-    .header-button:hover{
-      background-color: black;
-      color: aliceblue;
-      opacity: 0.8;
-      box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.7);
+.header-button {
+  background-color: rgba(0, 0, 255, 0.537);
+  color: white;
+  border: none;
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: larger;
+  margin-top: 9px;
+  transition: opacity 0.3s;
+}
 
-    }
+.header-button:hover {
+  background-color: black;
+  color: aliceblue;
+  opacity: 0.8;
+  box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.7);
+}
 
-    .header-button:active{
-      opacity: 0.5;
-    }
+.header-button:active {
+  opacity: 0.5;
+}
 
-    .nav-bar {
-      background-color: black;
-      background-position: 100px;
-      border-radius: 30px;
-      text-align: center;
-      height: 70px;
-      margin-top: 20px;
-      margin-left: 20%;
-      margin-right: 20%;
-      opacity: 0.7;
-    }
+.nav-bar {
+  background-color: black;
+  background-position: 100px;
+  border-radius: 30px;
+  text-align: center;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  opacity: 0.8;
+}
 
-    body {
-      background-image: url('../Images/backgroundting.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 120%;
-      padding: 10px;
-    }
+body {
+  background-image: url('../Images/backgroundting.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 120%;
+  padding: 10px;
+}
 
-    #famous-quote {
-      font-size: 60px;
-      font-family:'Zilla Slab', serif;
-      color: rgb(255, 255, 255);
-      margin-top: 15%;
-      float:right;
-      margin-right: 5%;
-    }
+#famous-quote {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Zilla Slab', serif;
+  color: purple;
+  margin-top: 15%;
+  float: right;
+  margin-right: 5%;
+}
 
-    .famous-person {
-      height:300px; width:250px;
-      margin-top: 13%;
-      margin-left: 7%;
-    }
+.famous-person {
+  height: 300px;
+  width: 250px;
+  margin-top: 13%;
+  margin-left: 7%;
+}
 
-    #about-description {
-      font-size: 50px;
-      font-weight: 600;
-      font-family:'Zilla Slab', serif;
-      color: rgb(255, 255, 255);
-      margin-top: 15%;
-      float:right;
-      margin-right: 5%;
-    }
+#about-description {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Zilla Slab', serif;
+  color: rgb(255, 255, 255);
+  margin-top: 12%;
+  float: right;
+  margin-right: 5%;
+}
 
-    #page-two {
-      margin-top: 25%;
-      background-color: rgba( 0, 0, 0, 0.3);
-      padding-bottom: 20%;
-      margin-bottom: 3%;
-    }
+#about-section {
+  margin-top: 25%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-bottom: 20%;
+  margin-bottom: 3%;
+}
+
+#skills-section {
+
+  background-image: url('../Images/Scenery.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 120%;
+  padding-bottom: 20%;
+  margin-top: 25%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.skills-button {
+  background-color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  border: none;
+  height:100px;
+  width: 200px;
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: 2%;
+}
