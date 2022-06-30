@@ -18,13 +18,14 @@
       font-size: larger;
       margin-top: 9px;
       transition: opacity 0.3s;
-      box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.537);
     }
 
     .header-button:hover{
       background-color: black;
       color: aliceblue;
       opacity: 0.8;
+      box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.7);
+
     }
 
     .header-button:active{
@@ -44,7 +45,7 @@
     }
 
     body {
-      background-image: url('https://images.unsplash.com/photo-1597655601841-214a4cfe8b2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBzY2VuZXJ5fGVufDB8fDB8fA%3D%3D&w=1000&q=80"');
+      background-image: url('/Assets/Images/backgroundting.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: 100% 120%;
@@ -62,8 +63,8 @@
 
     .famous-person {
       height:300px; width:250px;
-      margin-top: 200px;
-      margin-left: 10%;
+      margin-top: 13%;
+      margin-left: 15%;
     }
 
     #about-description {
@@ -76,7 +77,8 @@
     }
 
     #page-two {
-      margin-top: 400px;
+      margin-top: 25%;
       background-color: rgba( 0, 0, 0, 0.3);
-      padding-bottom: 100px;
+      padding-bottom: 20%;
+      margin-bottom: 3%;
     }
