@@ -86,7 +86,7 @@ body {
 
 #skills-section {
 
-  background-image: url('../Images/Scenery.jpg');
+  background-image: url('../../Assets/Images/Scenery.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 120%;
